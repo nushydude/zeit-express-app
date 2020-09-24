@@ -1,0 +1,28 @@
+{
+  "name": "zeit-express-app",
+  "version": "1.0.0",
+  "description": "Zeit (Vercel) Express App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nushydude/zeit-express-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nushydude/zeit-express-app/issues"
+  },
+  "homepage": "https://github.com/nushydude/zeit-express-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "now": "^20.1.1"
+  }
+}
